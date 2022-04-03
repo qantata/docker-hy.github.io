@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   coursematerial:
-    image: devopsdockeruh/coursepage
+    image: qantata/coursepage
     ports:
       - 4000:80
     container_name: coursematerial
